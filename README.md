@@ -5,12 +5,14 @@ Este é um projeto para revisar conceitos básicos de TypeScript utilizando Dock
 ## Pré-requisitos
 
 - Docker e Docker Compose instalados na sua máquina
+- Link oficial: https://docs.docker.com/get-docker/
 
 ## Como Usar
 
 1. Clone este repositório:
 
    git clone https://github.com/seu-usuario/typescript-review.git
+   
    cd typescript-review
 
 2. Construa e inicie o contêiner com Docker Compose:
@@ -23,5 +25,5 @@ Este é um projeto para revisar conceitos básicos de TypeScript utilizando Dock
 
 4. Executar o ts-node partir do contêiner:
    
-   docker-compose exec app <caminho-do-arquivo-typescrit>
+   docker-compose exec app ts-node `<caminho-do-arquivo-typescrit>`
 
